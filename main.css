@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #slider {
+    margin: 2rem auto;
+    width: 100%;
+    border-radius: 2px;
+    max-width: 720px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  #slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+  }
+  
+  /* helper css, since we don't have images */
+  .slide1 {
+    background-image: url(https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-desktop-background-1691.jpg);
+  }
+  .slide2 {
+    background-image: url(https://www.thewowstyle.com/wp-content/uploads/2015/01/1-beautiful-nature-backgrounds-nature-wallpapers-nature-landscape-photo-nature-wallpapers.jpeg);
+  }
+  .slide3 {
+    background-image: url(https://www.thewowstyle.com/wp-content/uploads/2015/01/3d-abstract_widewallpaper_nature-frame_47491.jpg);
+  }
+  .slide4 {
+    background-image: url(https://www.thewowstyle.com/wp-content/uploads/2015/01/6-autumn-nature-sandbox-images_2053316.jpg);
+  }
+  .slide5 {
+    background-image: url(https://www.thewowstyle.com/wp-content/uploads/2015/01/1280_1024_nature_scene_wallpaper_1600FG100_029.jpg);
+  }
+  
